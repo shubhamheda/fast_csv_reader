@@ -1,0 +1,5 @@
+# Method to compile code through terminal
+
+g++ -I /usr/include/python2.7 -fpic -c -o main.o main.cpp
+
+g++ -o hello_ext.so -shared main.o -lboost_python -lpython2.7
