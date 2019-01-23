@@ -52,6 +52,7 @@ std::vector<string> CSVReader::get_filenames() {
 }
 
 string CSVReader::get_file_extension() {
+    // Returns the File extension
     return extension;
 }
 
